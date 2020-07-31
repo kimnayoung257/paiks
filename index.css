@@ -1,0 +1,313 @@
+    /* 리셋 */
+    *{margin:0;border:none;padding:0;}
+    ol,ul,li{list-style:none;}
+    img{vertical-align:top;}
+    a{text-decoration:none;color:black}
+    .clearfix::after{content:'';display:block;}
+    body,div,input,form,button,select,textarea,span,ul,li,section,header,footer,article,p,a,h1,h2,h3,h4,h5{
+      font-size:14px;
+      font-weight:400px;
+      line-height:1em;
+      color:#333333;
+      box-sizing:border-box;
+    }
+    .eng{font-family:"roboto";}
+    .wrap{width:640px;margin:0 auto;}
+
+
+    .main_banner .bx-wrapper {
+    -moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;border:none;background:transparent;}
+    .main_banner .bx-wrapper .bx-pager{bottom:20px;}
+    .main_banner .bx-wrapper .bx-pager.bx-default-pager a{background-color:#cccccc;width:13px;height:13px;margin-left:8.5px;margin-right:8.5px;border-radius:8px;}
+    .main_banner .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {background-color:#ffe600;}
+    
+    /* 디폴트 */
+    body{
+      font-family:"Noto Sans KR";
+    }
+
+    .content{
+      margin:0 12px;
+    }
+
+    /* 해더 스타일 시작 */
+    .header{
+      width:640px;
+    }
+    .header .content{
+      display:flex;
+      flex-flow:row nowrap;
+      justify-content:space-between;
+      align-items:center;
+      height:70px;
+    }
+    .logo>img{
+      width:36px;
+      height:36px;
+    }
+    .logo>h1{
+      margin-left:6px;
+      margin-top:8px;
+      display:inline-block;
+      font-weight:bolder;
+      font-size:24px;
+      color: #0e347e;
+    }
+
+    /* 햄버거 */
+    .header .btn{
+      width:32px;
+      height:24px;
+    }
+
+    .header .btn li{
+      text-align:-999999px;
+      width:32px;
+      height:4px;
+      border-radius:3px;
+      background-color:black;
+    }
+
+    .header .btn li:nth-child(2){
+      margin:6px 0;
+    }
+    /* 햄버거 */
+
+
+    /* 해더 스타일 끝 */
+
+    /* 섹션 스타일 시작 */
+    .section{}
+
+    .main_banner{
+      height:200px;
+      background-color: greenyellow;
+    }
+
+    .coffee_story{
+      height:285px;
+      overflow:hidden;
+      position:relative;
+    }
+
+    .coffee_story>img{
+      height:100%;
+      transform:translateX(-40%);
+    }
+
+    .coffee_story>.coffee_story_txt{
+      position:absolute;
+      top:25px;
+    }
+    .coffee_story>.coffee_story_txt>h3{
+      margin:8px 0;
+      font-weight:900;
+      font-size:50px;
+      color: #0e347e;
+    }
+
+    .coffee_story>.coffee_story_txt>p:nth-of-type(1){
+      font-size:18px;color:#564e00;font-weight:bold;
+    }
+
+    .coffee_story>.coffee_story_txt>p:nth-of-type(2){
+      font-size:14px;color:#0e347e;font-weight:500;
+    }
+
+
+
+    .fi{
+      height:342px;
+      background-color: cadetblue;
+      margin-bottom:10px;
+    }
+
+    .fi.tasty_ice_cream{
+      margin-bottom:20px;
+    }
+
+    .franchise_store{
+      height:291px;
+      background-color:#ffffff;
+    }
+
+    .paiks_coffee_sns{
+      height:341px;
+    }
+    /* 섹션 스타일 끝 */
+
+    /* 푸터 스타일 시작 */
+    .footer{
+      height:410px;
+    }
+    /* 푸터 스타일 끝 */
+    .fi{
+      height:342px;
+      margin-bottom:10px;
+      overflow:hidden;
+      position:relative;
+    }
+    .fi>img{
+      height:100%;
+      transform:translateX(-9px);
+    }
+    .fi>.fi_txt{
+      position:absolute;
+      top:25px;
+    }
+    .fi>.fi_txt>h4{
+      font-family:'roboto';
+      font-weight:bolder;
+      font-size:24px;
+      line-height:24px;
+      padding-bottom:3px;
+    }
+    .fresh_coffee>.fi_txt>h4{
+      color: #6b4d30;
+      border-bottom:2px solid #6b4d30;
+    }
+    .various_beverage>.fi_txt>h4{
+      color: #93a03d;
+      border-bottom:2px solid #93a03d;
+    }
+    .sweet_paiks>.fi_txt>h4{
+      color: #f1ae1d;
+      border-bottom:2px solid #f1ae1d;
+    }
+    .tasty_ice_cream>.fi_txt>h4{
+      color: #f1ae1d;
+      border-bottom:2px solid #f1ae1d;
+    }
+
+    .fi.tasty_ice_cream{
+      margin-bottom:20px;
+    }
+
+    .franchise_store .content>div{
+      width:302px;
+      height:291px;
+      border:2px solid #0e347e;
+      padding:12px 0 0 16px;
+      position: relative;
+    }
+
+    .franchise_store .content>div>h5{
+      text-transform:uppercase;
+      font-weight:900;
+      font-size:34px;
+      color:#0e347e;
+    }
+    .franchise_store .content>div>p{
+      font-weight:500;
+      font-size:14px;
+      color:#202020;
+    }
+
+    .franchise_store .franchise{float:left;}
+    .franchise_store .franchise>img{
+      width:100%;
+      position:absolute;
+      bottom:0;
+      right:0px;
+    }
+    .franchise_store .store{float:right;}
+    .franchise_store .store>form{
+      position:absolute;
+      left:19px;
+      bottom:42px;
+    }
+    .franchise_store .store>form>input{
+      display:inline-block;
+      width:263px;
+      height:34px;
+      border:2px solid#0e347e;
+      }
+      .franchise_store .store>form>.circle{
+        width:16px;
+        height:16px;
+        border:2px solid#0e347e;
+        border-radius:50%;
+        text-indent:-99999999%;
+        position:absolute;
+        right:12px;
+        top:7px; 
+      }  
+      .franchise_store .store>form>.line{
+        width:8px;
+        height:2px;
+        background-color:#0e347e;
+        text-indent:-99999px;
+        position:absolute;
+        right:7px;
+        top:21px;
+        transform:rotate(45deg);
+      }
+
+
+     /* paiks_coffee_sns 시작 */
+    .paiks_coffee_sns{
+      height:341px;
+      padding:90px 0;
+      border-bottom:2px solid #ffff00;
+    }
+    .paiks_coffee_sns>h6{
+      font-weight:bold;
+      font-size:30px;
+      color:#202020;
+      text-align:center;
+    }
+    .paiks_coffee_sns>p{
+      text-align:center;
+      margin-top:21px;
+    }
+    .paiks_coffee_sns>p>span{
+      font-weight:bold;
+      font-size:16px;
+      color:#999999;
+      margin:0 20px;
+    }
+    .paiks_coffee_sns>hr{
+      width:96px;
+      height:1px;
+      background-color:#0e347e;
+      margin:28px auto 26px;
+    }
+    .paiks_coffee_sns>.sns_box{
+      text-align:center;
+    }
+    .paiks_coffee_sns>.sns_box>img{
+      width:32px;
+      height:32px;
+      margin:0 16px;
+    }
+    /* paiks_coffee_sns 끝 */
+
+
+
+      /* 푸터 */
+    .footer{
+      height:409px;
+      padding:32px 0;
+    }
+    .footer>.foot_logo{
+      text-align:center;
+    }
+    .footer>.foot_logo>img{
+      width:179px;
+    }
+    .footer>address{
+      margin:24px 0;
+      font-weight:500;
+      font-size:16px;
+      line-height:27px;
+      color:#262626;
+      font-style:normal;
+      text-align:center;
+    }
+    .footer>.copyright{
+      font-weight:bold;
+      font-size:16px;
+      color:#262626;
+      text-align:center;      
+    }
+      /* 푸터 끝 */
